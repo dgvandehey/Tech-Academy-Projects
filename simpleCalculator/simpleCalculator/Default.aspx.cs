@@ -21,7 +21,46 @@ namespace simpleCalculator
 
         protected void subtractionButton_Click(object sender, EventArgs e)
         {
+            string firstValue = firstValueTextBox.Text;
+            int value1 = int.Parse(firstValue);
+            string secondValue = secondValueTextBox.Text;
+            int value2 = int.Parse(secondValue);
+            int answer = value1 - value2;
 
+            resultLabel.Text = answer.ToString();
+        }
+
+        protected void additionButton_Click(object sender, EventArgs e)
+        {
+            string firstValue = firstValueTextBox.Text;
+            int value1 = int.Parse (firstValue);
+            string secondValue = secondValueTextBox.Text;
+            int value2 = int.Parse(secondValue);
+            int answer = value1 + value2;
+     
+            resultLabel.Text = answer.ToString();
+        }
+
+        protected void multiplyButton_Click(object sender, EventArgs e)
+        {
+            string firstValue = firstValueTextBox.Text;
+            int value1 = int.Parse(firstValue);
+            string secondValue = secondValueTextBox.Text;
+            int value2 = int.Parse(secondValue);
+            int answer = value1 * value2;
+
+            resultLabel.Text = answer.ToString();
+        }
+
+        protected void divisionButton_Click(object sender, EventArgs e)
+        {
+            string firstValue = firstValueTextBox.Text;
+            double value1 = double.Parse(firstValue);
+            string secondValue = secondValueTextBox.Text;
+            double value2 = double.Parse(secondValue);
+            double answer = value1 / value2;
+
+            resultLabel.Text = answer.ToString();
         }
     }
 }

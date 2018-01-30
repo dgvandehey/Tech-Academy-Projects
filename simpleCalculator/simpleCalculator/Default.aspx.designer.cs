@@ -22,22 +22,22 @@ namespace simpleCalculator {
         protected global::System.Web.UI.HtmlControls.HtmlForm firstValue;
         
         /// <summary>
-        /// firstValue control.
+        /// firstValueTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox firstValue;
+        protected global::System.Web.UI.WebControls.TextBox firstValueTextBox;
         
         /// <summary>
-        /// secondValue control.
+        /// secondValueTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox secondValue;
+        protected global::System.Web.UI.WebControls.TextBox secondValueTextBox;
         
         /// <summary>
         /// additionButton control.
